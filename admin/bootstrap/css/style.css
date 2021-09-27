@@ -1,0 +1,38 @@
+.login
+{
+	display: flex;
+	justify-content: center;
+	border-radius: 15px;
+}
+
+.logo
+{
+
+	text-align: center;
+}
+.login-label
+{
+		
+	width: 30px;
+}
+.login-input
+{
+	margin: 25px;
+}
+.sub
+{
+	float: right;
+	margin: 15px;
+}
+.class1
+{
+	height: 200px;
+}
+.login1
+{
+	background-color: #81BEF7;
+	border-radius: 15px;
+	height: 350px;
+	width: 350px;
+
+}
