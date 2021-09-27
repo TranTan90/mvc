@@ -3,36 +3,33 @@
 	display: flex;
 	justify-content: center;
 	border-radius: 15px;
+	
 }
-
-.logo
+.login-logo
 {
-
+	 margin-top: 50px;
 	text-align: center;
 }
-.login-label
-{
-		
-	width: 30px;
-}
+
 .login-input
 {
-	margin: 25px;
+	margin: 10px auto auto 35px;
+
+
+
+}
+.login-form
+{
+	background-color:#99CCCC;
+	
+	width: 400px;
+	height: 500px;
+	border-radius: 15px;
+	margin-top: 150px;
+
 }
 .sub
-{
+{	position: relative;
 	float: right;
-	margin: 15px;
-}
-.class1
-{
-	height: 200px;
-}
-.login1
-{
-	background-color: #81BEF7;
-	border-radius: 15px;
-	height: 350px;
-	width: 350px;
-
+	margin: 60px;
 }

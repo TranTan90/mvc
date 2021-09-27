@@ -9,6 +9,7 @@
 	 $db ->connect();
 	 $db-> set_char('utf8');
 	 $_DOMAIN ='http://localhost/code/web/';
+	 $_DOMAIN='http://localhost/code/mvc/mvc';
 	 date_default_timezone_set('Asia/Ho_Chi_Minh');
 	 //  khoi taii session 
 	 $session = new Session();
