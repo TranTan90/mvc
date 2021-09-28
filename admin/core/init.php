@@ -8,8 +8,8 @@
 	 $db = new DB();
 	 $db ->connect();
 	 $db-> set_char('utf8');
-	 $_DOMAIN ='http://localhost/code/web/';
-	 $_DOMAIN='http://localhost/code/mvc/mvc';
+	 $_DOMAIN ='http://localhost/code/mvc';
+	// $_DOMAIN='http://localhost/code/mvc/mvc';
 	 date_default_timezone_set('Asia/Ho_Chi_Minh');
 	 //  khoi taii session 
 	 $session = new Session();
@@ -18,7 +18,7 @@
 	  if($session->get_session() != '')
 	  {
 	  	$user =$session->get_session();
-	  	echo $user;
+	  	
 	  }
 	  else
 	  {

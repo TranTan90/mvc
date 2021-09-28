@@ -7,24 +7,35 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo $_DOMAIN ?>/admin/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $_DOMAIN ?>/admin/bootstrap/css/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $_DOMAIN ?>/admin/bootstrap/js/jquery-3.6.0.min.js">
-	<title></title>
+	<title> </title>
 	
 </head>
 <body>
  <?php
 
- if (!$user) {
+ if (!$user) 
+ {
+
  	
  }
  
-else {
+else
+ {
+
+ 	require_once 'template/signout.php';
 
 
-	 echo  '<div class="container"><h1>User</h1></div>';
+	 
+
+
 }
 
 
 
   ?>
+
+
+
+  <a href=""></a>
 
 
